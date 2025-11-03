@@ -21,7 +21,7 @@ CREATE TABLE `entrada` (
 
 CREATE TABLE `pase` (
   `id_pase` integer PRIMARY KEY AUTO_INCREMENT,
-  `id_pelicula` integet,
+  `id_pelicula` integer,
   `fecha` date,
   `hora` time,
   `sala` integer
