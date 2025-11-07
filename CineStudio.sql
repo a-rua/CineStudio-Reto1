@@ -1,5 +1,5 @@
 CREATE TABLE `usuario` (
-  `id_ususario` integer PRIMARY KEY AUTO_INCREMENT,
+  `id_usuario` integer PRIMARY KEY AUTO_INCREMENT,
   `nombre` varchar(255),
   `email` varchar(255),
   `password` varchar(255),
@@ -29,6 +29,6 @@ CREATE TABLE `pase` (
 
 ALTER TABLE `pase` ADD FOREIGN KEY (`id_pelicula`) REFERENCES `pelicula` (`id_pelicula`);
 
-ALTER TABLE `entrada` ADD FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_ususario`);
+ALTER TABLE `entrada` ADD FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`);
 
-ALTER TABLE `entrada` ADD FOREIGN KEY (`id_entrada`) REFERENCES `pase` (`id_pase`);
+ALTER TABLE `pase` ADD FOREIGN KEY (`id_pase`) REFERENCES `entrada` (`id_pase`);
