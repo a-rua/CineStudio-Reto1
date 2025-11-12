@@ -31,4 +31,4 @@ ALTER TABLE `pase` ADD FOREIGN KEY (`id_pelicula`) REFERENCES `pelicula` (`id_pe
 
 ALTER TABLE `entrada` ADD FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`);
 
-ALTER TABLE `pase` ADD FOREIGN KEY (`id_pase`) REFERENCES `entrada` (`id_pase`);
+ALTER TABLE `entrada` ADD FOREIGN KEY (`id_pase`) REFERENCES `pase` (`id_pase`);
