@@ -1,0 +1,157 @@
+{
+  "peliculas": [
+    {
+      "titulo": "28 AÑOS DESPUES",
+      "imagen": "/IMG/28-anios-despues.jpeg",
+      "informacion": "Seis años después de un virus mortal, un pequeño grupo de sobrevivientes lucha por sobrevivir en un Londres desolado lleno de peligros."
+    },
+    {
+      "titulo": "AVATAR",
+      "imagen": "/IMG/avatar.jpeg",
+      "informacion": "Un ex-marine es enviado a Pandora y se une a los nativos Na'vi mientras lucha contra la explotación humana del planeta y sus secretos más profundos."
+    },
+    {
+      "titulo": "TRON ARES",
+      "imagen": "/IMG/tron-ares.jpeg",
+      "informacion": "En un mundo virtual, un joven hacker debe enfrentar programas hostiles y descubrir secretos que podrían cambiar la realidad de la red."
+    },
+    {
+      "titulo": "BALLERINA",
+      "imagen": "/IMG/ballerina.jpeg",
+      "informacion": "Una joven huérfana sueña con convertirse en bailarina profesional y viaja a París para perseguir su pasión enfrentando desafíos y aventuras."
+    },
+    {
+      "titulo": "BETTERMAN",
+      "imagen": "/IMG/betterman.jpeg",
+      "informacion": "Un hombre común se convierte en héroe inesperado al enfrentar injusticias y descubrir su verdadero potencial mientras busca redimir errores del pasado."
+    },
+    {
+      "titulo": "BLANCANIEVES",
+      "imagen": "/IMG/blancanieves.jpeg",
+      "informacion": "Una princesa vive escondida tras la maldad de su madrastra, encontrando refugio con siete enanos que cambiarán su destino por y para siempre."
+    },
+    {
+      "titulo": "LOS CUATRO FANTÁSTICOS",
+      "imagen": "/IMG/cuatro-fantasticos.jpeg",
+      "informacion": "Cuatro héroes con poderes extraordinarios luchan para salvar al mundo tras un accidente científico que los transforma en seres excepcionales."
+    },
+    {
+      "titulo": "ENTRENAR A TU DRAGON",
+      "imagen": "/IMG/dragon.jpeg",
+      "informacion": "Un joven vikingo desafía las tradiciones al hacer amistad con un dragón, cambiando para siempre la relación de su pueblo con las criaturas."
+    },
+    {
+      "titulo": "FLOW",
+      "imagen": "/IMG/flow.jpeg",
+      "informacion": "Un grupo de músicos callejeros enfrenta desafíos y rivalidades mientras luchan por cumplir su sueño de presentarse en un gran festival de hip hop."
+    },
+    {
+      "titulo": "JURASSIC WORLD",
+      "imagen": "/IMG/jurassic-world.jpeg",
+      "informacion": "Un parque temático con dinosaurios clonados se convierte en caos cuando una criatura modificada genéticamente escapa y amenaza la vida."
+    },
+    {
+      "titulo": "KIMETSU NO YAIBA",
+      "imagen": "/IMG/kny.jpeg",
+      "informacion": "Un joven cazador de demonios busca vengar a su familia y proteger a su hermana de fuerzas sobrenaturales que amenazan la paz en su mundo."
+    },
+    {
+      "titulo": "LILO & STITCH",
+      "imagen": "/IMG/lilo-y-stich.jpeg",
+      "informacion": "Una niña hawaiana adopta a un extraño experimento alienígena que aprende el significado de la familia y la importancia de la amistad verdadera."
+    },
+    {
+      "titulo": "LOS WARREN",
+      "imagen": "/IMG/los-warren.jpeg",
+      "informacion": "Basada en hechos reales, los investigadores paranormales Ed y Lorraine Warren enfrentan una aterradora entidad en una casa embrujada que aterroriza a una familia."
+    },
+    {
+      "titulo": "MINECRAFT",
+      "imagen": "/IMG/minecraft.jpeg",
+      "informacion": "Un joven aventurero explora un mundo hecho de bloques, enfrentando criaturas peligrosas mientras intenta salvar su mundo pixelado de la destrucción."
+    },
+    {
+      "titulo": "MISIÓN IMPOSSIBLE",
+      "imagen": "/IMG/mision-imposible.jpeg",
+      "informacion": "El agente Ethan Hunt y su equipo deben detener una conspiración internacional mientras enfrentan misiones imposibles llenas de acción y tensión."
+    },
+    {
+      "titulo": "SUPERMAN",
+      "imagen": "/IMG/superman.jpeg",
+      "informacion": "Clark Kent, un alienígena con superpoderes, protege la Tierra de amenazas mientras mantiene su identidad secreta y lucha por la justicia."
+    },
+    {
+      "titulo": "WICKED",
+      "imagen": "/IMG/wicked.jpeg",
+      "informacion": "La historia no contada de las brujas de Oz, mostrando sus luchas, ambiciones y la verdad detrás de la fama de la Bruja Malvada y sus decisiones."
+    }
+  ],
+  "estreno": [
+    {
+      "titulo": "TRON ARES",
+      "imagen": "/IMG/tron-ares.jpeg",
+      "informacion": "En un mundo virtual, un joven hacker debe enfrentar programas hostiles y descubrir secretos que podrían cambiar la realidad de la red."
+    },
+    {
+      "titulo": "SUPERMAN",
+      "imagen": "/IMG/superman.jpeg",
+      "informacion": "Clark Kent, un alienígena con superpoderes, protege la Tierra de amenazas mientras mantiene su identidad secreta y lucha por la justicia."
+    },
+    {
+      "titulo": "KIMETSU NO YAIBA",
+      "imagen": "/IMG/kny.jpeg",
+      "informacion": "Un joven cazador de demonios busca vengar a su familia y proteger a su hermana de fuerzas sobrenaturales que amenazan la paz en su mundo."
+    }
+  ],
+  "carrusel": [
+    {
+      "titulo": "TRON ARES",
+      "imagen": "/IMG/tron-aresCarrusel.jpg",
+      "informacion": "En un mundo virtual, un joven hacker debe enfrentar programas hostiles y descubrir secretos que podrían cambiar la realidad de la red."
+    },
+    {
+      "titulo": "SUPERMAN",
+      "imagen": "/IMG/supermanCarrusel.jpg",
+      "informacion": "Clark Kent, un alienígena con superpoderes, protege la Tierra de amenazas mientras mantiene su identidad secreta y lucha por la justicia."
+    },
+    {
+      "titulo": "KIMETSU NO YAIBA",
+      "imagen": "/IMG/knyCarrusel.jpg",
+      "informacion": "Un joven cazador de demonios busca vengar a su familia y proteger a su hermana de fuerzas sobrenaturales que amenazan la paz en su mundo."
+    }
+  ],
+  "taquilleras": [
+    {
+      "titulo": "AVATAR",
+      "imagen": "/IMG/avatar.jpeg",
+      "informacion": "Un ex-marine es enviado a Pandora y se une a los nativos Na'vi mientras lucha contra la explotación humana del planeta y sus secretos mas profundos."
+    },
+    {
+      "titulo": "JURASSIC WORLD",
+      "imagen": "/IMG/jurassic-world.jpeg",
+      "informacion": "Un parque temático con dinosaurios clonados se convierte en caos cuando una criatura modificada genéticamente escapa y amenaza la vida."
+    },
+    {
+      "titulo": "MISIÓN IMPOSSIBLE",
+      "imagen": "/IMG/mision-imposible.jpeg",
+      "informacion": "El agente Ethan Hunt y su equipo deben detener una conspiración internacional mientras enfrentan misiones imposibles llenas de acción y tensión."
+    },
+    {
+      "titulo": "SUPERMAN",
+      "imagen": "/IMG/superman.jpeg",
+      "informacion": "Clark Kent, un alienígena con superpoderes, protege la Tierra de amenazas mientras mantiene su identidad secreta y lucha por la justicia."
+    },
+    {
+      "titulo": "MINECRAFT",
+      "imagen": "/IMG/minecraft.jpeg",
+      "informacion": "Un joven aventurero explora un mundo hecho de bloques, enfrentando criaturas peligrosas mientras intenta salvar su mundo pixelado de la destrucción."
+    }
+  ],
+  "proximamente": [
+    {
+      "titulo": "WICKED",
+      "imagen": "/IMG/wicked.jpeg",
+      "informacion": "La historia no contada de las brujas de Oz, mostrando sus luchas, ambiciones y la verdad detrás de la fama de la Bruja Malvada y sus decisiones."
+    }
+  ]
+}

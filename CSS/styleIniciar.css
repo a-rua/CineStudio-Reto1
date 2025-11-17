@@ -1,0 +1,213 @@
+body {
+    background-color: #011D3B;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+nav {
+    background-color: #052548;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: right;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    margin-right: 30%;
+}
+
+.izquierda {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.derecha {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+}
+
+
+ul {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    height: 45px;
+}
+
+.carro {
+    margin: 0;
+    height: 50px;
+}
+
+.navegador a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    display: flex;
+}
+
+/*---FORMULARIO---*/
+
+.contenido {
+    height: 533px;
+}
+
+.formulario {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2.56px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.formulario h2 {
+    color: #013369;
+}
+
+.formulario p {
+    color: #404040
+}
+
+.email {
+    padding: 6px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.contrasena {
+    padding: 6px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.btnIniciar {
+    background-color: #013369;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.redireccion {
+    text-align: center;
+}
+
+/*----------------PIE DE PÁGINA----------------*/
+footer {
+    background-color: #052548;
+}
+
+footer p {
+    margin: 0;
+}
+
+.logoFooter {
+    width: 150px;
+    height: 40px;
+    float: left;
+    margin: auto;
+}
+
+.padreFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenes {
+    margin: auto;
+}
+
+.imagenes p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hijoFooter a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------------*/
+.hijoFooter {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.hijoFooter p {
+    margin-bottom: 8%;
+    width: auto;
+}
+
+hr {
+    width: 80%;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.pie {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+
+    .navegador img {
+        height: 35px;
+    }
+
+    ul a {
+        color: white;
+        font-size: 13.5px;
+        margin: 2px;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iniciar,
+    .registrarse {
+        font-size: 10px;
+        margin-bottom: 5px;
+        height: 30px;
+    }
+}
