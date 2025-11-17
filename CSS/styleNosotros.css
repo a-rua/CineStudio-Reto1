@@ -1,0 +1,228 @@
+body {
+    background-color: #011D3B;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+nav {
+    background-color: #052548;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: right;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+}
+
+.izquierda {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.derecha {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+}
+
+
+ul {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    height: 45px;
+}
+
+.carro {
+    margin: 0;
+    height: 50px;
+}
+
+.navegador a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    display: flex;
+}
+
+
+/*Boton de iniciar sesión*/
+.iniciar {
+    background-color: white;
+    border-radius: 3px;
+    color: #013369;
+    text-align: center;
+    font-size: 20px;
+    height: 100%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+}
+
+/*Boton de registrarse*/
+.registrarse {
+    background-color: #007bff;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 100%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+/*-----ABOUT US-----*/
+
+.contenido {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.contenido p {
+    width: 80%;
+    font-size: larger;
+    text-align: justify;
+}
+
+#hrMapa{
+    width: 50%;
+}
+
+/*----------------PIE DE PÁGINA----------------*/
+footer {
+    background-color: #052548;
+}
+
+footer p {
+    margin: 0;
+}
+
+.logoFooter {
+    width: 150px;
+    height: 40px;
+    float: left;
+    margin: auto;
+}
+
+.padreFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenes {
+    margin: auto;
+}
+
+.imagenes p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hijoFooter a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------------*/
+.hijoFooter {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.hijoFooter p {
+    margin-bottom: 8%;
+    width: auto;
+}
+
+hr {
+    width: 80%;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.pie {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .navegador img {
+        height: 35px;
+    }
+
+    ul a {
+        color: white;
+        font-size: 13.5px;
+        margin: 2px;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iniciar,
+    .registrarse {
+        font-size: 10px;
+        margin-bottom: 5px;
+        height: 30px;
+    }
+
+    .contenido {
+        margin-top: 15%;
+    }
+
+    .contenido iframe {
+        height: 250px;
+        width: 80%;
+    }
+
+    #hrMapa{
+        width: 80%;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinestudio Películas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/stylePeliculas.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navegador">
+                <div class="izquierda">
+                    <a href="Index.html"><img class="logo" src="../IMG/Logo.png" alt="Logo Cinestudio"></a>
+                    <a href="index.html">Inicio</a>
+                    <a href="peliculas.html">Películas</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </div>
+
+                <div class="derecha">
+                    <div class="botones">
+                        <a class="iniciar" href="iniciarSesion.html">Iniciar Sesión</a>
+                        <a class="registrarse" href="formRegistrarse.html">Registrarse</a>
+                    </div>
+                    <header>
+                        <a href="#" id="carritoBtn" style="position: relative;">
+                            <img class="carro" src="../IMG/carro.svg" alt="Carrito">
+                            <span id="contadorCarrito">0</span>
+                        </a>
+                    </header>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Filtro-->
+    <div class="filtro">
+        <div class="links">
+            <a id="todos">TODAS</a>
+            <a id="estrenos">ESTRENOS</a>
+            <a id="proximamente">PROXIMAMENTE</a>
+        </div>
+        <hr>
+    </div>
+
+    <!--Cards-->
+    <div id="contenido">
+
+    </div>
+
+
+    <!-- Modal del Carrito -->
+    <div id="carritoModal" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Tu carrito</h2>
+            <div id="listaCarrito"></div>
+
+            <div class="botonesCarrito">
+                <button id="vaciarCarrito">Vaciar carrito</button>
+                <button id="realizarReserva">Realizar reserva</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="padreFooter">
+            <img class="logoFooter" src="../IMG/Logo.png" alt="Logo footer">
+
+            <div class="imagenes">
+                <p>Síguenos</p>
+                <a href="#"><img src="../IMG/facebook.png" alt="Link Facebook"></a>
+                <a href="#"><img src="../IMG/x.png" alt="Link Twitter"></a>
+                <a href="#"><img src="../IMG/instagram.png" alt="Link Instagram"></a>
+            </div>
+            <div class="hijoFooter">
+                <p><a class="aviso" href="">Aviso legal</a></p>
+                <p><a class="privacidad" href="">Políticas de privacidad</a></p>
+                <p><a class="cookies" href="">Políticas de cookies</a></p>
+            </div>
+        </div>
+        <hr>
+        <p class="pie">© 2025 CineStudio. Todos los derechos reservados</p>
+    </footer>
+    <script src="../JS/peliculas.js"></script>
+</body>
+
+</html>
